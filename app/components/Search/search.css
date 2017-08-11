@@ -1,0 +1,29 @@
+.search-form {
+  display: inline-block;
+  position: relative;
+}
+
+.search-label {
+  cursor: pointer;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 15px;
+}
+
+.search-input {
+  border: 2px solid #000;
+  height: 20px;
+  padding: 6px 25px;
+}
+
+.search-clear {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 15px;
+}

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Company component markup 1`] = `
+<article
+  className="company"
+>
+  <header
+    className="company-details"
+  >
+    <h2
+      className="company-name"
+    >
+      Sony
+    </h2>
+    <p
+      className="company-description"
+    >
+      Sony Description
+    </p>
+  </header>
+  <p
+    className="company-type"
+  >
+    List
+  </p>
+  <p
+    className="company-headquarter"
+  >
+    USA
+  </p>
+</article>
+`;

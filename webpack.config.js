@@ -19,8 +19,16 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
+      },
+      {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
       }
-    ]
+    ],
   },
   devServer: {
     contentBase: path.join(__dirname, 'public'),

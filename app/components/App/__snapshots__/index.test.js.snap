@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render the correct markup 1`] = `
+<div>
+  <form
+    className="search-form"
+  >
+    <label
+      className="search-label"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "test-file-stub",
+        }
+      }
+      htmlFor="search"
+    />
+    <input
+      className="search-input"
+      id="search"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      className="search-clear"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "test-file-stub",
+        }
+      }
+      onClick={[Function]}
+      type="button"
+    />
+  </form>
+  <ul
+    className="companies"
+  >
+    <li
+      className="companies-headers"
+    >
+      <span>
+        Name
+      </span>
+      <span>
+        Type
+      </span>
+      <span>
+        Headquarter
+      </span>
+    </li>
+    
+  </ul>
+</div>
+`;

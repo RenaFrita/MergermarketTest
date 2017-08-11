@@ -1,0 +1,27 @@
+.company {
+  display: flex;
+}
+
+.company-name {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.company-description {
+  font-size: 14px;
+  margin: 0;
+}
+
+.company-details {
+  flex: 6;
+  padding: 10px;
+}
+
+.company-headquarter,
+.company-type {
+  border-left: 2px solid #000;
+  flex: 1;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px;
+}

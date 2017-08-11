@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component markup 1`] = `
+<form
+  className="search-form"
+>
+  <label
+    className="search-label"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "test-file-stub",
+      }
+    }
+    htmlFor="search"
+  />
+  <input
+    className="search-input"
+    id="search"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <button
+    className="search-clear"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "test-file-stub",
+      }
+    }
+    onClick={[Function]}
+    type="button"
+  />
+</form>
+`;
